@@ -21,8 +21,13 @@
 
   canvas{
     background:#fff;
-    height: auto;
+    /* height: auto; */
+    /* min-height: 400px !important; */
   }
+
+ element.style{
+   min-height: 400px !important;
+ }
 
   /* .container{
     margin:auto;

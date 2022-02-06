@@ -15,6 +15,8 @@ CORS(app, support_credentials=True)
 
 #First Main Page Route
 @app.route("/")
+@app.route("/home")
+@app.route("/index")
 def home():
     # load home page
     return render_template("index.html")

@@ -40,7 +40,6 @@ function Pagecontent(stocksymbol){
   
       d3.json(url2).then(function(response) {
           console.log(response)
-  
           weather = response[0];
           stock = response[1];
   
@@ -168,7 +167,7 @@ function Pagecontent(stocksymbol){
           var type = "line";
 
           var myChart = new Chart(document.getElementById("myChart").getContext('2d'), {options, data, type});
-
+         
           var myChart2 = new Chart(document.getElementById("myChart2").getContext('2d'), {
           options: {
             ...options,
@@ -234,7 +233,11 @@ function Pagecontent(stocksymbol){
           },
           type
           });
+          
+         
   });
 }
+
+
 
 init();
