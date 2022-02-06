@@ -1,7 +1,6 @@
 # The "STOCK" Network: NYSE Analysis
 Please refer to the [report](https://github.com/SherryKennedy/Weather_vs_NYSE_Analysis/blob/master/Project%203%20-%20Report.pdf) and [presentation](https://github.com/SherryKennedy/Weather_vs_NYSE_Analysis/blob/master/Project%203%20-%20Presentation.pdf) for a thorough explanation of this project. Below you will find the analysis steps and links to the relevant folders and files.
 
-https://github.com/SherryKennedy/Weather_vs_NYSE_Analysis
 
 ## Motivation
 A gentle breeze, a bit of rain… We don’t mind this. Although, when it comes to a full downpour of rain or a large snow storm, this inclement weather may devastate a life, damage a property, or close off an internet connection. Did some climatic event affect your financial situation? Let’s investigate if daily weather has some effect on stock markets.
@@ -86,6 +85,8 @@ When a regression analysis is performed, the daily maximum temperature presents 
 ## Notes on Conclusions
 
 Obviously maximum temperature does not dictate the stock closing price or transaction volume. There are many other factors that affect the stock market, and this result can be very controversial. The analysis observed is just showing the trends observed. 
+
+![Stock Report](StockImage.jpg)
 
 ## Project Authors:
 Sherry Kennedy
