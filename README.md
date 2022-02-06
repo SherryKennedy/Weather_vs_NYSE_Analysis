@@ -1,5 +1,7 @@
 # The "STOCK" Network: NYSE Analysis
-Please refer to the [report](https://github.com/hiamdebsi/Project_3-Visualize_Me_Captain/blob/main/Project%203%20-%20Report.pdf) and [presentation](https://github.com/hiamdebsi/Project_3-Visualize_Me_Captain/blob/main/Project%203%20-%20Presentation.pdf) for a thorough explanation of this project. Below you will find the analysis steps and links to the relevant folders and files.
+Please refer to the [report](https://github.com/SherryKennedy/Weather_vs_NYSE_Analysis/blob/master/Project%203%20-%20Report.pdf) and [presentation](https://github.com/SherryKennedy/Weather_vs_NYSE_Analysis/blob/master/Project%203%20-%20Presentation.pdf) for a thorough explanation of this project. Below you will find the analysis steps and links to the relevant folders and files.
+
+https://github.com/SherryKennedy/Weather_vs_NYSE_Analysis
 
 ## Motivation
 A gentle breeze, a bit of rain… We don’t mind this. Although, when it comes to a full downpour of rain or a large snow storm, this inclement weather may devastate a life, damage a property, or close off an internet connection. Did some climatic event affect your financial situation? Let’s investigate if daily weather has some effect on stock markets.
@@ -34,9 +36,9 @@ To answer these questions and to confirm our hypothesis, we extracted data for N
 
 
 # Web Page Breakdown
-### [Home Page:](https://github.com/hiamdebsi/Project_3-Visualize_Me_Captain/blob/main/StockMarketWeather/app/templates/index.html)
+### [Home Page:](https://github.com/SherryKennedy/Weather_vs_NYSE_Analysis/blob/master/StockMarketWeather/app/templates/index.html)
 Our landing page is where you will find our motivation, hypothesis, and steps taken to gather needed data for the following pages. In addition, it displays the results we obtained from the data analysis and correlation performed.
-### [Analysis Page:](https://github.com/hiamdebsi/Project_3-Visualize_Me_Captain/blob/main/StockMarketWeather/app/templates/stockweather.html)
+### [Analysis Page:](https://github.com/SherryKennedy/Weather_vs_NYSE_Analysis/blob/master/StockMarketWeather/app/templates/stockweather.html)
 In here, we find two multi y-axis graphs that demonstrate the trend of stock volumes, stock closing prices, and max temperature over time (between January 2018 - October 2021).
 There is a dropdown menu which allows you to switch between 23 stock markets within NYC, and see their trend respectively.
 Both graphs are interactive, and you can get the exact values of each point by just clicking on it.
@@ -53,12 +55,12 @@ The map page shows an interactive map displaying the stock HQs of 23 stock marke
 * Industry
 
 # Code Highlight
-* ### [ETL Process](https://github.com/hiamdebsi/Project_3-Visualize_Me_Captain/blob/main/Project%203%20-%20Report.pdf)
-* ### [Flask App Queries](https://github.com/hiamdebsi/Project_3-Visualize_Me_Captain/blob/main/StockMarketWeather/app/app.py)
-* ### [HTML Templates](https://github.com/hiamdebsi/Project_3-Visualize_Me_Captain/tree/main/StockMarketWeather/app/templates)
-* ### [Javascripts](https://github.com/hiamdebsi/Project_3-Visualize_Me_Captain/tree/main/StockMarketWeather/app/static/js)
-* ### [Styling Files](https://github.com/hiamdebsi/Project_3-Visualize_Me_Captain/tree/main/StockMarketWeather/app/static/css)
-* ### [Clean Data for Reference](https://github.com/hiamdebsi/Project_3-Visualize_Me_Captain/tree/main/StockMarketWeather/app/data)
+* ### [ETL Process](https://github.com/SherryKennedy/Weather_vs_NYSE_Analysis/blob/master/Project%203%20-%20Report.pdf)
+* ### [Flask App Queries](https://github.com/SherryKennedy/Weather_vs_NYSE_Analysis/blob/master/StockMarketWeather/app/app.py)
+* ### [HTML Templates](https://github.com/SherryKennedy/Weather_vs_NYSE_Analysis/tree/master/StockMarketWeather/app/templates)
+* ### [Javascripts](https://github.com/SherryKennedy/Weather_vs_NYSE_Analysis/tree/master/StockMarketWeather/app/static/js)
+* ### [Styling Files](https://github.com/SherryKennedy/Weather_vs_NYSE_Analysis/tree/master/StockMarketWeather/app/static/css)
+* ### [Clean Data for Reference](https://github.com/SherryKennedy/Weather_vs_NYSE_Analysis/tree/master/StockMarketWeather/app/data)
 
 # Research Analysis
 Our analysis focused on three main variables: daily max temperature, stock volume, and stock closing price. 
@@ -84,5 +86,9 @@ When a regression analysis is performed, the daily maximum temperature presents 
 ## Notes on Conclusions
 
 Obviously maximum temperature does not dictate the stock closing price or transaction volume. There are many other factors that affect the stock market, and this result can be very controversial. The analysis observed is just showing the trends observed. 
+
+## Project Authors:
+Sherry Kennedy
+Hiam Debsi
 
 
