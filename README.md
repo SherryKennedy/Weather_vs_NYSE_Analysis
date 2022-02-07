@@ -88,7 +88,7 @@ Obviously maximum temperature does not dictate the stock closing price or transa
 
 ![Stock Report](StockImage.jpg)
 
-## Project Authors:
+## Contributors:
 Sherry Kennedy
 Hiam Debsi
 
